@@ -1,0 +1,42 @@
+[
+    {
+    "id": "01",
+    "nome": "bob",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt purus augue, ac faucibus magna porttitor vitae. Sed sed pellentesque ante. In hendrerit lectus a nibh molestie lacinia. Nunc at sem sem. In hac habitasse platea dictumst.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png",
+    "preco": 1000.50,
+    "alt": "descrição"
+    },
+    {
+    "id": "02",
+    "nome": "item2",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt purus augue, ac faucibus magna porttitor vitae. Sed sed pellentesque ante. In hendrerit lectus a nibh molestie lacinia. Nunc at sem sem. In hac habitasse platea dictumst.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png",
+    "preco": 2500.30,
+    "alt": "descrição"
+    },
+    {
+    "id": "03",
+    "nome": "item3",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt purus augue, ac faucibus magna porttitor vitae. Sed sed pellentesque ante. In hendrerit lectus a nibh molestie lacinia. Nunc at sem sem. In hac habitasse platea dictumst.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png",
+    "preco": 1345.9,
+    "alt": "descrição"
+    },
+    {
+    "id": "04",
+    "nome": "item4",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt purus augue, ac faucibus magna porttitor vitae. Sed sed pellentesque ante. In hendrerit lectus a nibh molestie lacinia. Nunc at sem sem. In hac habitasse platea dictumst.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png",
+    "preco": 6500,
+    "alt": "descrição"
+    },
+    {
+    "id": "05",
+    "nome": "item5",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt purus augue, ac faucibus magna porttitor vitae. Sed sed pellentesque ante. In hendrerit lectus a nibh molestie lacinia. Nunc at sem sem. In hac habitasse platea dictumst.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png",
+    "preco": 5100,
+    "alt": "descrição"
+    }
+]
