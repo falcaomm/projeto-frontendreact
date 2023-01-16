@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
         cursor: pointer;
     }
     main{
-        background-color: white;
+        background-color: beige;
         padding: 5vh 0;
     }
 `;
