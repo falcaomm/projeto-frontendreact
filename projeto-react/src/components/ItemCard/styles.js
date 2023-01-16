@@ -5,7 +5,7 @@ export const CardItem = styled.section`
     display: flex;
     padding: 1rem;
     align-items: center;
-    color: pink;
+    color: darkblue;
     border-radius: 10px;
     margin-bottom: -3.5rem;
     min-width: 500px;
@@ -50,5 +50,6 @@ export const ButtonAdd = styled.button`
     border: none;
     font-weight: 700;
     font-size: 3.5rem;
-    color: pink;
+    color: darkblue;
+    background-color: yellow;
 `

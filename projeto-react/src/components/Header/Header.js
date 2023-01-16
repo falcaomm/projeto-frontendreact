@@ -10,7 +10,7 @@ function Header(props) {
         <>
             {mudaTela === 'homePage' ? 
                 <HeaderStyle>
-                    <TitleHeader onClick={() => irPara('homePage')}>Nome Empresa</TitleHeader>
+                    <TitleHeader onClick={() => irPara('homePage')}>Biblioteca Espacial</TitleHeader>
                     <Busca
                         nome={nome}
                         setNome={setNome}

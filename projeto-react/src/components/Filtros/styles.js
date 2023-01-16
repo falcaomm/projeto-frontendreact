@@ -5,8 +5,9 @@ export const AsideStyle = styled.aside`
     top: 15vh;
     left: 0;
     width: 23.5%;
-    background-color: red;
+    background-color: darkblue;
     margin-left: 5%;
+    color: white;
 `
 export const InputStyle = styled.input`
     width: 25%;
@@ -43,6 +44,7 @@ export const ButtonCar = styled.button`
     font-size: 1rem;
     background-color: white;
     font-weight: 600;
+    color: darkblue;
 `
 export const Text = styled.p`
     padding:0 0 0.5rem 1rem;

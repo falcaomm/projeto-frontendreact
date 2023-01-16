@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const SectionLista = styled.section`
     margin: 10vh 5% 5vh 30%;
     width: 65%;
-    background-color: red;
+    background-color: darkblue;
     padding: 1rem;
     min-width: 550px;
 `

@@ -9,6 +9,6 @@ export const InputStyle = styled.input`
     ::placeholder{
         padding-left: 1rem;
         font-size: 1rem;
-        color: blue;
+        color: darkblue;
     }
 `

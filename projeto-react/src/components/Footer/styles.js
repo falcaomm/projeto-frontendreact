@@ -3,10 +3,10 @@ import styled from 'styled-components'
 export const FooterStyle = styled.footer`
     height: 15vh;
     width: 100%;
-    background-color: white;
+    background-color: darkblue;
     display: grid;
     grid-template-rows: 2fr 1fr;
-    color: pink;
+    color: white;
 `
 export const DivStyle = styled.div`
     display: flex;
@@ -19,6 +19,7 @@ export const Text = styled.p`
     font-size: 1.2rem;
     display: flex;
     a{
+        color: yellow;
         display: flex;
         justify-content: center;
         padding-left: 0.3rem;

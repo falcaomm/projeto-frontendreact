@@ -6,7 +6,7 @@ function ListaItens(props) {
     const { nome, minPreco, maxPreco, order, addCarrinho, Itens } = props
     return (
         <SectionLista>
-            <SectionTitle>Titulo sessão</SectionTitle>
+            <SectionTitle>Livros Infantis</SectionTitle>
             {
                 Itens
 

@@ -7,11 +7,12 @@ export const HeaderStyle = styled.header`
     height: 10vh;
     width: 100%;
     align-items: center;
-    background-color: red;
+    background-color: darkblue;
     justify-content: space-between;
     z-index: 2;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    color: white;
 `
 export const TitleHeader = styled.h1`
     font-size: 1.5rem;
