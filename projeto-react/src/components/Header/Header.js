@@ -1,6 +1,6 @@
 import React from "react";
 import Busca from "../Busca/Busca"
-import { HeaderStyle, TitleHeader, Icone } from "./styles";
+import { HeaderStyle, TitleHeader, Icone, HeaderStyleCarrinho } from "./styles";
 import { FaShoppingCart, FaHome } from 'react-icons/fa'
 
 
@@ -17,10 +17,10 @@ function Header(props) {
                     ></Busca>
                     <Icone onClick={() => irPara('carrinho')}> <FaShoppingCart /></Icone>
                 </HeaderStyle> 
-                : <HeaderStyle>
+                : <HeaderStyleCarrinho>
                     <TitleHeader onClick={() => irPara('homePage')}>Nome Empresa</TitleHeader>
                     <Icone onClick={() => irPara('homePage')}> <FaHome /></Icone>
-                </HeaderStyle> 
+                </HeaderStyleCarrinho> 
             }
         </>
     )

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { AsideStyle, InputStyle, Titles, Label, DivStyle, SelectStyle, ButtonCar, Text } from "./styles";
+import { AsideStyle, InputStyle, Titles, Label, DivStyle, SelectStyle, ButtonCar, Text, ButtonFiltros } from "./styles";
+import { FaArrowCircleRight } from 'react-icons/fa'
 
 function Filtros(props) {
 
@@ -41,32 +42,32 @@ function Filtros(props) {
             </DivStyle>
 
             <DivStyle>
-            <Titles>Preço</Titles>
-            <Label for="min">Min</Label>
-            <InputStyle
-                id="min"
-                type="number"
-                value={props.minPreco}
-                onChange={(e) => onChangeMinPreco(e)}
-            />
-            <Label for="max">- Max</Label>
-            <InputStyle
-                id="max"
-                type="number"
-                value={props.maxPreco}
-                onChange={(e) => onChangeMaxPreco(e)}
-                />
+                <Titles>Preço</Titles>
+                <div>
+                    <Label for="min">Min</Label>
+                    <InputStyle
+                        id="min"
+                        type="number"
+                        value={props.minPreco}
+                        onChange={(e) => onChangeMinPreco(e)}
+                    />
+                    <Label for="max"> - Max</Label>
+                    <InputStyle
+                        id="max"
+                        type="number"
+                        value={props.maxPreco}
+                        onChange={(e) => onChangeMaxPreco(e)}
+                        />
+                </div>
             </DivStyle>
 
             <DivStyle>
                 <Titles>Carrinho</Titles>
                 {quantidadeItens === 1 ? <Text> {quantidadeItens} Item</Text> : <Text> {quantidadeItens} Itens</Text>}
-                <ButtonCar onClick={() => props.irPara('carrinho')}>Total: R$ {precoTotal} {'>'} </ButtonCar>
+                <ButtonCar onClick={() => props.irPara('carrinho')}>Subtotal: R$ {precoTotal.toFixed(2).replace(".", ",")} <FaArrowCircleRight /> </ButtonCar>
             </DivStyle>
             
-            <DivStyle>
-                <ButtonCar onClick={limparFiltros}>limpar Filtros </ButtonCar>
-            </DivStyle>
+                <ButtonFiltros onClick={limparFiltros}>Limpar Filtros </ButtonFiltros>
         </AsideStyle>
     );
 }

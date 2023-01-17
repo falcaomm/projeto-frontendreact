@@ -1,25 +1,24 @@
 import styled from 'styled-components'
 
 export const FooterStyle = styled.footer`
-    height: 15vh;
+    height: 16vh;
     width: 100%;
-    background-color: darkblue;
+    background-color: var(--secondary-color);
     display: grid;
+    align-items: center;
     grid-template-rows: 2fr 1fr;
-    color: white;
+    color: var(--light-color);
 `
 export const DivStyle = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-self: start;
 `
 export const Text = styled.p`
-    margin-bottom: 0.4rem;
     font-size: 1.2rem;
     display: flex;
     a{
-        color: yellow;
+        color: var(--complementary-color);
         display: flex;
         justify-content: center;
         padding-left: 0.3rem;
