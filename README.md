@@ -7,13 +7,11 @@
 
 > Esse projeto de introdução aos fundamentos do React tem como objetivo funcionar como o front-end de um E-Commerce.
 
-## 💻 Tecnologias: 
+## 💻 Tecnologias e Recursos Utilizados : 
 * JavaScript;
 * ReactJs;
 * CSS;
-* HTML.
-
-## Recursos Utilizados 
+* HTML;
 * Styled-Components;
 * Fluxo de dados no React;
 * useState() e useEffect();
