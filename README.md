@@ -19,7 +19,7 @@
 * useState() e useEffect();
 * LocalStorage;
 * Renderização de listas;
-* Renderização condicional;
+* Renderização condicional.
 
 ## 📝Lista de Requisitos:
 - Home 
