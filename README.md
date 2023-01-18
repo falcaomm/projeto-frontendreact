@@ -1,11 +1,11 @@
-# Projeto-frontendreact
+# Projeto Front-end React
 
 <div align="center">
 <p><a href="#">Clique aqui</a> para abrir no navegador<p/>
 <img src="#" alt="GIF de demonstração do projeto">
 </div>
 
-> Esse projeto de introdução aos fundamentos do React tem como objetivo funcionar como o front-end de um E-Commerce.
+> Esse projeto de introdução aos fundamentos do React tem como objetivo funcionar como o **front-end de um E-Commerce**.
 
 ## 💻 Tecnologias e Recursos Utilizados : 
 * JavaScript;
