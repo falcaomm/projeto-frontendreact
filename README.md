@@ -9,7 +9,7 @@
 
 ## 💻 Tecnologias e Recursos Utilizados : 
 * JavaScript;
-* ReactJs;
+* React;
 * CSS;
 * HTML;
 * Styled-Components;
