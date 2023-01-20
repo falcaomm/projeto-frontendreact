@@ -27,8 +27,9 @@ export const Text = styled.p`
     
 `
 export const FooterTitle = styled.h3`
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     padding-bottom: 0.4rem;
     padding-top: 0.6rem;
+    font-weight: 700;
 `
 

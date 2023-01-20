@@ -39,7 +39,6 @@ export const Text = styled.p`
     text-align: center;
     font-size: 1.5rem;
     padding: 0.5rem;
-
 `
 export const ButtonVoltar = styled.button`
     display: flex;
@@ -52,21 +51,10 @@ export const ButtonVoltar = styled.button`
     border: none;
     font-size: 1.2rem;
     background-color: var(--complementary-color);
-    font-weight: 600;
     color: var(--light-color);
+    font-weight: 700;
 `
 
-export const Infos = styled.section`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: var(--light-color);
-    color: var(--secondary-color);
-    padding: 1rem;
-    border-radius: 10px;
-    margin-bottom: 0.5rem;
-    `
 
 export const SectionCart = styled.section`
     display: flex;
@@ -78,12 +66,17 @@ export const SectionCart = styled.section`
     border-radius: 10px;
     padding: 1rem;
 `
-
+    export const Infos = styled(SectionCart)`
+    margin-bottom: 0.5rem;
+    text-align: center;
+    width: 99.5%;
+`
 export const DivImgName = styled.div`
     min-width:35% ;
     max-width: 35%;
     display: flex;
     align-items: center;
+    font-weight: 600;
 `
 export const Img = styled.img`
     max-width: 60px;
@@ -100,7 +93,7 @@ export const PriceItem = styled.p`
     font-size: 1rem;
     display: flex;
     justify-content: center;
-    margin: 0 1rem;
+    margin: 0 1rem;    
 `
 export const DivQtd = styled.div`
     min-width: 20% ;
@@ -109,6 +102,7 @@ export const DivQtd = styled.div`
     align-items: center;
     justify-content: center;
     margin: 0 1rem;
+    font-weight: 600;
 `
 export const ButtonQtd = styled.button`
     border: none;
@@ -168,12 +162,12 @@ export const ButtonEsvaziar = styled.button`
     padding: 0.5rem 1rem;
     color:  var(--secondary-color);
     background-color: var(--primary-color);
+    font-weight: 700;
 `
 export const ButtonContinuar = styled(ButtonEsvaziar)`
     align-self: center;
     justify-content: center;
     width: 25%;
-    font-weight: 700;
 `
 export const ButtonFinalizar = styled(ButtonVoltar)`
     width: 35%;

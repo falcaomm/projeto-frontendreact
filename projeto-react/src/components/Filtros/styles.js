@@ -53,7 +53,7 @@ export const ButtonCar = styled.button`
     font-size: 1rem;
     margin: 0 0.5rem;
     background-color: var(--complementary-color);
-    font-weight: 600;
+    font-weight: 700;
     color: var(--light-color);
 `
 export const ButtonFiltros = styled(ButtonCar)`
@@ -61,6 +61,7 @@ export const ButtonFiltros = styled(ButtonCar)`
     width: 95%;
     margin: 0.5rem;
     background-color: var(--secondary-color);
+    font-weight: 600;
 `
 export const Text = styled.p`
     align-self: flex-start;

@@ -20,7 +20,7 @@ export const HeaderStyleCarrinho = styled(HeaderStyle)`
 
 export const TitleHeader = styled.h1`
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 900;
     padding-left: 5vw ;
     cursor: pointer;
 `
@@ -30,4 +30,17 @@ export const Icone = styled.p`
     padding-right: 5vw ;
     justify-self: end;
     font-size: 2rem;
+    cursor: pointer;
+    p{
+        background-color: var(--complementary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.5rem;
+        width: 1.5rem;
+        font-size: 0.9rem;
+        border-radius: 50%;
+        margin-left: -0.6rem;
+        margin-top: -0.2rem;
+    }
 `

@@ -1,40 +1,40 @@
 [
     {
-    "id": "01",
+    "id": 1,
     "nome": "O Astronauta",
-    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt purus augue, ac faucibus magna porttitor vitae. Sed sed pellentesque ante. In hendrerit lectus a nibh molestie lacinia. Nunc at sem sem. In hac habitasse platea dictumst.",
+    "desc":"Um belo dia, O Astronauta percebeu que a Terra estava pequena demais para ele e decidiu se aventurar pelo espaço sideral. Ele só não esperava perceber que a maior viagem é sempre pra dentro de nós mesmos.",
     "img": "https://m.media-amazon.com/images/P/B09F6Y1RN2.01._SCLZZZZZZZ_SX500_.jpg",
     "preco": 41.90,
     "alt": "Capa do livro o Astronauta"
     },
     {
-    "id": "02",
+    "id": 2,
     "nome": "Amigos do Espaço",
-    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt purus augue, ac faucibus magna porttitor vitae. Sed sed pellentesque ante. In hendrerit lectus a nibh molestie lacinia. Nunc at sem sem. In hac habitasse platea dictumst.",
+    "desc":"O espaço é um lugar cheio de mistérios e repleto de amigos especiais: o Sol, a Lua, as estrelas, os planetas... Que tal conhecer um pouco mais sobre esses astros incríveis?",
     "img": "https://m.media-amazon.com/images/P/B09V37FH1G.01._SCLZZZZZZZ_SX500_.jpg",
     "preco": 14.75,
     "alt": "Capa do livro Amigos do Espaço"
     },
     {
-    "id": "03",
+    "id": 3,
     "nome": "Como eu cheguei aqui?",
-    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt purus augue, ac faucibus magna porttitor vitae. Sed sed pellentesque ante. In hendrerit lectus a nibh molestie lacinia. Nunc at sem sem. In hac habitasse platea dictumst.",
+    "desc":"Como eu cheguei aqui? Para responder a essa pergunta, o livro traça a sua história desde o Big Bang até o seu nascimento. A tarefa não é fácil, mas, com muita graça e simplicidade, nosso autor começa a apresentar a formação das estrelas, do sistema solar, do planeta Terra, dos primeiros seres vivos até chegar a você.",
     "img": "https://cdl-static.s3-sa-east-1.amazonaws.com/covers/gg/9788574126340/como-eu-cheguei-aqui.jpg",
     "preco": 19.90,
     "alt": "Capa do livro Como eu cheguei aqui?"
     },
     {
-    "id": "04",
+    "id": 4,
     "nome": "Cinco Girafas no Espaço",
-    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt purus augue, ac faucibus magna porttitor vitae. Sed sed pellentesque ante. In hendrerit lectus a nibh molestie lacinia. Nunc at sem sem. In hac habitasse platea dictumst.",
+    "desc":"Se você gosta de histórias e de rimas, se acha que fantasia com alegria combina, se gosta de contar estrelas no céu, se acredita que ler é bom pra dedéu, se ama bichos espertos e pescoçudos, se acha que ler é viajar por vários mundos, então te apresentamos este livro legal, tem astronautas e uma nave espacial, nela se encontram cinco girafas, cinco Marias, elas viviam no espaço, ora essa, quem diria.",
     "img": "https://images-submarino.b2w.io/produtos/2174531258/imagens/livro-cinco-girafas-no-espaco/2174531258_1_large.jpg",
     "preco": 26.90,
     "alt": "Capa do livro Cinco Girafas no Espaço"
     },
     {
-    "id": "05",
+    "id": 5,
     "nome": "Preciso de Espaço!",
-    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt purus augue, ac faucibus magna porttitor vitae. Sed sed pellentesque ante. In hendrerit lectus a nibh molestie lacinia. Nunc at sem sem. In hac habitasse platea dictumst.",
+    "desc":"A maior descoberta dessa pequena e destemida astronauta não é uma espaçonave alienígena ou um cometa inesperado, mas sim entender o caráter único deste nosso lar, o planeta Terra, e a importante missão que todos temos de preservá-lo.",
     "img": "https://images.tcdn.com.br/img/img_prod/571854/preciso_de_espaco_16161721_1_501a04d309cefa2ca289472998dd6129.jpg",
     "preco": 34.90,
     "alt": "descrição"

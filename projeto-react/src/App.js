@@ -76,6 +76,7 @@ function App() {
         setNome={setNome}
         irPara={irPara}
         mudaTela={mudaTela}
+        carrinho={carrinho}
       ></Header>
       <main>
         {mudaTela === 'homePage' ? <>
