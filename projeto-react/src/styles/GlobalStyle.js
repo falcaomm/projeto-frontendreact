@@ -17,6 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     main{
         background-color: var(--light-color);
         padding: 5vh 0;
+        min-height: 75%;
     }
 
     :root{
